@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>app-shelf</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>gen:ab</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-25T13:55:05Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2014-03-25T15:00:03Z</date>
+			<key>modificationDate</key>
+			<date>2014-03-25T14:13:14Z</date>
+			<key>plainText</key>
+			<string>git clone https://github.com/deepjs/autobahn-shelf.git ./%filltext:name=appName%
+cd autobahn-shelf
+npm install
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>920581DE-E565-4278-A219-DADCD7AEE154</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>gen:ab+browser</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-25T14:09:56Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2014-03-25T14:59:19Z</date>
+			<key>modificationDate</key>
+			<date>2014-03-25T14:14:45Z</date>
+			<key>plainText</key>
+			<string>git clone https://github.com/deepjs/autobahn-shelf.git %filltext:name=appName%
+cd autobahn-shelf
+npm install
+git clone https://github.com/deepjs/browser-shelf.git ./www
+cd www
+bower install
+cd ..
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>2907C991-C774-4F56-B94F-0506E375B0E5</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>gen:browser</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-25T13:55:23Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2014-03-25T15:00:26Z</date>
+			<key>modificationDate</key>
+			<date>2014-03-25T14:09:41Z</date>
+			<key>plainText</key>
+			<string>git clone https://github.com/deepjs/browser-shelf.git %filltext:name=appName%
+cd browser-shelf
+npm install
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>BAF7FB6F-5E72-4CA7-9C28-DF5A86C0CBAD</string>
+		</dict>
+	</array>
+</dict>
+</plist>

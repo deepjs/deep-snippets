@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>autobahn</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>ab.html.map</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-25T00:35:01Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>autobahn html map</string>
+			<key>lastUsed</key>
+			<date>2014-03-25T11:21:55Z</date>
+			<key>modificationDate</key>
+			<date>2014-03-25T12:58:36Z</date>
+			<key>plainText</key>
+			<string>require("deepjs/lib/view");
+require("deep-node/lib/fs/json").create({
+	protocol: "json",
+	basePath: "/www"
+});
+require("deep-swig");
+deep.client.Swig.init({});
+deep.client.Swig.create({
+	protocol: "swig",
+	basePath: "/www"
+});
+
+var htmls = {
+	head: deep.View({
+		how:'&lt;title&gt;html from server&lt;/title&gt;' +
+			'&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;' ,
+		where: "dom.appendTo::head"
+	}),
+	body: deep.View({
+		how: "&lt;div&gt;body&lt;div id='topbar'&gt;&lt;/div&gt;&lt;div id='content'&gt;&lt;/div&gt;&lt;/div&gt;",
+		where: "dom.appendTo::body",
+		subs: {
+			
+		}
+	})
+	/*,app: deep.View({
+		how:'&lt;script src="/libs/jquery-1.11.0.min.js"&gt;&lt;/script&gt;' +
+			'&lt;script src="/libs/swig.min.js"&gt;&lt;/script&gt;' +
+			'&lt;script src="/libs/jstorage.min.js"&gt;&lt;/script&gt;' +
+			'&lt;script data-main="/main" src="/libs/require.js"&gt;&lt;/script&gt;',
+		where: "dom.appendTo::body"
+	})*/
+};
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>259AF921-E661-4488-9561-101453D398D6</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>ab.index</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-25T00:33:29Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>autobahn full index</string>
+			<key>lastUsed</key>
+			<date>2014-03-25T11:25:58Z</date>
+			<key>modificationDate</key>
+			<date>2014-03-25T12:58:40Z</date>
+			<key>plainText</key>
+			<string>var express = require('express'),
+	deep = require("deepjs"),
+	autobahn = require("autobahnjs");
+
+deep.globals.rootPath = __dirname;
+
+deep.Modes({
+	roles:"public"
+});
+
+//_________________________ Start your app construction
+var app = express();
+
+var loggedIn = function(session) {
+	return session;
+};
+var autobahnApp = {
+	express: app,
+	loggedIn: loggedIn,
+	protocols: {
+
+	},
+	getModes: function(session) // use this middleware to get current request roles from session. if you have login, session contains your user.
+	{
+		// console.log("roles middleware : ", session);
+		if (session &amp;&amp; session.user)
+			return {
+				roles: "user"
+			}; // if your logged in : you're "user"
+		return {
+			roles: "public"
+		}; // else you're "public"
+	},
+	loginHandlers: autobahn.login.createHandlers({
+		store: "user",
+		encryption: "sha1",
+		loginField: "email",
+		passwordField: 'password',
+		loggedIn: loggedIn
+	})
+};
+
+
+app
+// set simple session management (pure expressjs)
+.use(express.cookieParser())
+	.use(express.session({
+		secret: 'paezijp7YlhgiGOUYgtogz',
+		maxAge: new Date(Date.now() + 3600000)
+	}))
+// to get body parsed automatically (json/files/..)
+.use(express.bodyParser())
+	.use(autobahn.context.middleware(function(context) {
+		return context;
+	})) // required : it set deep.context for each request (it means that it set a unique environnement for each request)
+.use(autobahn.modes.middleware(autobahnApp.getModes))
+	.use(autobahn.protocols.middleware(autobahnApp.protocols))
+// ------ USER LOGIN/LOGOUT/ROLES MANAGEMENT
+.post("/logout", autobahn.logout.middleware()) // use this middleware to logout : you just need to post anything on it.
+.post("/login", autobahn.login.middleware(autobahnApp.loginHandlers)) // use this middleware to login. it will look after 'user' protocol (or you could give directly the store reference (or its OCM manager)), and check posted email/password combination in provided store.
+
+///____________________________________________________  USE YOUR MAPS
+.use(autobahn.restful.map(services))
+	.use(autobahn.html.map(htmls))
+	.use(autobahn.statics.middleware(statics))
+///____________________________________________________      Finish app construction
+.use(app.router)
+.use(function(req, res, next) {
+	console.log("nothing to do with : ", req.url);
+	res.writeHead(404, {
+		'Content-Type': 'text/html'
+	});
+	res.end("error : 404");
+})
+.listen(3000);
+
+deep.App(autobahnApp);
+
+console.log("server is listening on port : ", 3000);
+
+var repl = require("repl")
+	.start({
+		prompt: "node via stdin&gt; ",
+		input: process.stdin,
+		output: process.stdout
+	});
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>C8E0B54A-1D77-4AD7-BF0E-209719FC3976</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>ab.rest.map</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-25T00:38:41Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>autobahn restful map</string>
+			<key>modificationDate</key>
+			<date>2014-03-25T12:58:23Z</date>
+			<key>plainText</key>
+			<string>var services = {
+	"/your/route":%|
+};
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>F8667A0B-696B-41F8-A1EA-36C00D68340E</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>ab.statics</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-25T00:38:12Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>autobahn statics entry</string>
+			<key>modificationDate</key>
+			<date>2014-03-25T12:58:32Z</date>
+			<key>plainText</key>
+			<string>{
+	path: deep.globals.rootPath + '/www',
+	options: {
+		maxAge: 86400000,
+		redirect: false
+	}
+}</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>BE8973CB-F712-42FE-9F3D-8101A05169AB</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>ab.statics.map</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-25T00:38:20Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>autobahn statics map</string>
+			<key>modificationDate</key>
+			<date>2014-03-25T12:58:28Z</date>
+			<key>plainText</key>
+			<string>var statics = {
+	"/": [{
+		path: deep.globals.rootPath + '/www',
+		options: {
+			maxAge: 86400000,
+			redirect: false
+		}
+	}]
+};
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>D8C6DA89-4580-4F37-953B-D296833F1FC6</string>
+		</dict>
+	</array>
+</dict>
+</plist>
