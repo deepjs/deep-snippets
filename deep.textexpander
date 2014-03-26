@@ -154,7 +154,7 @@ return function(){
 			<key>label</key>
 			<string>promise.done</string>
 			<key>lastUsed</key>
-			<date>2014-03-25T15:02:16Z</date>
+			<date>2014-03-26T09:55:33Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T13:28:44Z</date>
 			<key>plainText</key>
@@ -180,7 +180,7 @@ return function(){
 			<key>label</key>
 			<string>promise.fail</string>
 			<key>lastUsed</key>
-			<date>2014-03-25T15:02:44Z</date>
+			<date>2014-03-26T09:55:09Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T13:28:40Z</date>
 			<key>plainText</key>
@@ -555,7 +555,7 @@ return function(){
 			<key>label</key>
 			<string></string>
 			<key>lastUsed</key>
-			<date>2014-03-25T13:54:14Z</date>
+			<date>2014-03-26T09:54:53Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T13:03:22Z</date>
 			<key>plainText</key>
