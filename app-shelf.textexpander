@@ -25,10 +25,10 @@
 			<key>lastUsed</key>
 			<date>2014-03-25T15:00:03Z</date>
 			<key>modificationDate</key>
-			<date>2014-03-25T14:13:14Z</date>
+			<date>2014-03-27T15:28:51Z</date>
 			<key>plainText</key>
 			<string>git clone https://github.com/deepjs/autobahn-shelf.git ./%filltext:name=appName%
-cd autobahn-shelf
+cd %filltext:name=appName%
 npm install
 </string>
 			<key>snippetType</key>
@@ -36,7 +36,7 @@ npm install
 			<key>useCount</key>
 			<integer>1</integer>
 			<key>uuidString</key>
-			<string>920581DE-E565-4278-A219-DADCD7AEE154</string>
+			<string>711D3C49-E8D5-46D5-BA77-FC6DC351752C</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -52,10 +52,10 @@ npm install
 			<key>lastUsed</key>
 			<date>2014-03-25T14:59:19Z</date>
 			<key>modificationDate</key>
-			<date>2014-03-25T14:14:45Z</date>
+			<date>2014-03-27T15:29:47Z</date>
 			<key>plainText</key>
 			<string>git clone https://github.com/deepjs/autobahn-shelf.git %filltext:name=appName%
-cd autobahn-shelf
+cd %filltext:name=appName%
 npm install
 git clone https://github.com/deepjs/browser-shelf.git ./www
 cd www
@@ -68,7 +68,7 @@ cd ..
 			<key>useCount</key>
 			<integer>1</integer>
 			<key>uuidString</key>
-			<string>2907C991-C774-4F56-B94F-0506E375B0E5</string>
+			<string>D41798DE-AB37-4FA7-B738-1D70AB7D2AFD</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -84,10 +84,10 @@ cd ..
 			<key>lastUsed</key>
 			<date>2014-03-25T15:00:26Z</date>
 			<key>modificationDate</key>
-			<date>2014-03-25T14:09:41Z</date>
+			<date>2014-03-27T15:30:53Z</date>
 			<key>plainText</key>
-			<string>git clone https://github.com/deepjs/browser-shelf.git %filltext:name=appName%
-cd browser-shelf
+			<string>git clone https://github.com/deepjs/browser-shelf.git %filltext:name=dirName:default=www%
+cd %filltext:name=dirName:default=www%
 npm install
 </string>
 			<key>snippetType</key>
@@ -95,7 +95,7 @@ npm install
 			<key>useCount</key>
 			<integer>1</integer>
 			<key>uuidString</key>
-			<string>BAF7FB6F-5E72-4CA7-9C28-DF5A86C0CBAD</string>
+			<string>FF98AC38-A48B-4F81-B91C-F3064116C180</string>
 		</dict>
 	</array>
 </dict>
