@@ -207,7 +207,7 @@
 			<key>useCount</key>
 			<integer>8</integer>
 			<key>uuidString</key>
-			<string>CA51B8A7-A9AB-472C-A866-AABE01638DA8</string>
+			<string>E9EFA0E6-7536-4D3C-9DFF-C2541182F7CC</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -234,7 +234,7 @@
 			<key>useCount</key>
 			<integer>3</integer>
 			<key>uuidString</key>
-			<string>132E32EF-673B-410F-9EF0-0B1AE027A5F6</string>
+			<string>2723BD06-E47E-4256-B19E-D8BDCE6060D4</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -262,7 +262,7 @@
 			<key>useCount</key>
 			<integer>8</integer>
 			<key>uuidString</key>
-			<string>3BD21137-5FF7-4620-A919-5F0989B3AF4B</string>
+			<string>1A89EC28-36B9-4B40-A8F0-ADEEE4FCFBE6</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -288,7 +288,7 @@
 			<key>useCount</key>
 			<integer>8</integer>
 			<key>uuidString</key>
-			<string>F14DAF12-CE34-4325-986A-0B87115880DA</string>
+			<string>E27741B1-48AF-4E86-984A-511116E88F62</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -310,7 +310,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>F96376B1-9B4A-4506-A1D7-6AD3D2D5C565</string>
+			<string>04C94E24-B800-4DFF-810B-B957848904F1</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -336,7 +336,7 @@
 			<key>useCount</key>
 			<integer>15</integer>
 			<key>uuidString</key>
-			<string>45C9472C-4C97-4B11-88DE-21F107D2394D</string>
+			<string>5C310C6C-CACE-4775-84E3-A027BC2FEBA6</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -350,7 +350,7 @@
 			<key>label</key>
 			<string>promise.fail</string>
 			<key>lastUsed</key>
-			<date>2014-03-26T09:55:09Z</date>
+			<date>2014-03-26T10:51:50Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T13:28:40Z</date>
 			<key>plainText</key>
@@ -362,7 +362,7 @@
 			<key>useCount</key>
 			<integer>14</integer>
 			<key>uuidString</key>
-			<string>06EC8780-A7FE-435D-9E3D-7F877A68A2AE</string>
+			<string>4621E0FB-434E-49E1-BA73-2C8575265055</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -386,7 +386,7 @@
 			<key>useCount</key>
 			<integer>1</integer>
 			<key>uuidString</key>
-			<string>D787E118-2D07-474D-A5B7-DD4CD7227BBD</string>
+			<string>499D40EF-EF9F-4EF5-B085-02B5A85EC91E</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -408,7 +408,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>EA17FB0A-4191-4455-86DE-E7343DC28275</string>
+			<string>96278CE0-008A-4FA8-84A9-E5CBBC43CACB</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -430,7 +430,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>AD6AC0FB-8D92-45BF-9A9C-0F5D73A95FBC</string>
+			<string>16CBF3A2-F03B-40E5-A700-5BA86980B698</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -452,7 +452,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>A1649E52-15A6-46FB-AE2D-DB5FE6F8D0E8</string>
+			<string>2AA7AC7B-11BA-4F8E-9CFE-02355FD5A69E</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -476,7 +476,7 @@
 			<key>useCount</key>
 			<integer>1</integer>
 			<key>uuidString</key>
-			<string>6FE76F3E-0395-4C0F-8A35-02DC6CD41E2A</string>
+			<string>A87673A2-B823-4707-8EAC-ABE424441045</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -498,7 +498,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>22B4FC98-DB5F-4F2A-9921-6CF7E12D1A24</string>
+			<string>FF51ACCD-F995-4477-8FAB-793954221262</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -520,7 +520,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>F04193EA-F9F2-445C-9ECE-B5467FE0EE84</string>
+			<string>26A313EE-084B-4A79-A5C2-197A3DACDCD3</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -544,7 +544,7 @@
 			<key>useCount</key>
 			<integer>1</integer>
 			<key>uuidString</key>
-			<string>92275E3C-4C9A-4383-8A29-E72281C2727E</string>
+			<string>552B8340-0DEA-49EA-B09F-C29AB3206A3D</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -566,7 +566,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>A4FB7921-605D-43ED-80F3-345682DCE1AF</string>
+			<string>6A547E0E-EB74-4A87-8659-04BC64846125</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -590,7 +590,7 @@
 			<key>useCount</key>
 			<integer>1</integer>
 			<key>uuidString</key>
-			<string>5402A2F2-9B7F-4122-B7F7-FE6794DA0DC1</string>
+			<string>819B9712-7866-48A5-8DFE-F9EC271DB376</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -617,7 +617,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>13081D11-1D98-45F2-B9FD-0DC1836F1F43</string>
+			<string>429AB9C1-3ACC-436A-80E8-987922FBC4A8</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -645,7 +645,7 @@
 			<key>useCount</key>
 			<integer>5</integer>
 			<key>uuidString</key>
-			<string>17229AD6-1542-4240-9D2B-08C89D30AF81</string>
+			<string>F8A39E0E-05AD-4EDE-860B-494736A08823</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -667,7 +667,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>3BFB9E42-6FFC-477E-806B-B9096BCDDA43</string>
+			<string>EC18D9A9-EDCD-4982-AADF-975776A21D8E</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -691,7 +691,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>2FEBF342-B477-4412-8045-290C3342E761</string>
+			<string>CFD0F9C7-330B-4ED8-8F53-AC55F26CA292</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -713,7 +713,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>01280796-D89D-4A1B-914F-73793371B531</string>
+			<string>0B50DBD0-2A1A-43FB-A5B1-205D853B090D</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -737,7 +737,7 @@
 			<key>useCount</key>
 			<integer>3</integer>
 			<key>uuidString</key>
-			<string>4FED2A02-D4B8-49C2-9262-6D7277822BFB</string>
+			<string>ED0DE514-6781-474B-AE22-EB251DE860A0</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -770,7 +770,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>BADC9F16-8441-4F83-B504-7211E5F85888</string>
+			<string>6DA9FFA9-36A9-42B4-9AED-A7EBFCC3D220</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -792,7 +792,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>0465ED54-96F3-481E-9055-9380EB5E4A0C</string>
+			<string>D35421A5-FDD8-4F17-9747-B7F976A321C4</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -816,7 +816,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>7691EB1C-3537-4064-85CE-20CC44B4C3F1</string>
+			<string>097692A6-877C-420F-83F6-DD2C86A8C5F3</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -840,7 +840,7 @@
 			<key>useCount</key>
 			<integer>3</integer>
 			<key>uuidString</key>
-			<string>AA61F532-6A26-432F-91C2-52BBDBB8DDF6</string>
+			<string>6DC606EE-14E8-406C-B015-77325582BBF4</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -862,7 +862,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>64D49173-309D-498E-AEE6-19C294FDF40C</string>
+			<string>CD734BC3-355E-49BC-9A6D-AAB9259A6FF3</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -888,7 +888,7 @@
 			<key>useCount</key>
 			<integer>3</integer>
 			<key>uuidString</key>
-			<string>93A977C3-87EA-4C1B-9164-22E6BF5F5085</string>
+			<string>A64D4EB1-D987-46EC-AFCE-1A9DD99AF413</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -916,7 +916,7 @@
 			<key>useCount</key>
 			<integer>3</integer>
 			<key>uuidString</key>
-			<string>E60AA34A-B41B-4223-BA9B-B9865022FB26</string>
+			<string>BAC31726-58E7-430C-94D8-56300145575A</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -930,7 +930,7 @@
 			<key>label</key>
 			<string>deep.compose.before</string>
 			<key>lastUsed</key>
-			<date>2013-07-09T09:54:27Z</date>
+			<date>2014-03-27T11:46:23Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-27T11:07:58Z</date>
 			<key>plainText</key>
@@ -942,7 +942,7 @@
 			<key>useCount</key>
 			<integer>3</integer>
 			<key>uuidString</key>
-			<string>56A496F5-B590-4C14-902F-4DD5A68084DC</string>
+			<string>F4B8A7B5-4806-47D6-BB82-1A04B461FBBD</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -964,7 +964,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>F94E020E-F872-44EA-A21D-4F79E8AD20D4</string>
+			<string>D2467F55-44A9-48C2-9F4B-DDA7F10E692C</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -986,7 +986,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>C50D90E7-DFC1-4438-A913-7C16624CC037</string>
+			<string>A99D7175-6AF4-42C6-989D-7EB24B8BD8E4</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1008,7 +1008,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>6DC45EEE-3D2F-498C-8631-4FEC16371359</string>
+			<string>B3D08075-E913-4B97-8376-3524CB4C87C7</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1033,7 +1033,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>B72630C0-CEFB-4D77-B772-DC2A0D6D814E</string>
+			<string>A48B5AF6-B3CA-4F37-8F07-F341892E8AA3</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1055,7 +1055,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>68D536D5-2F26-47D6-B3E9-354D1DB1B68D</string>
+			<string>183A1856-9EFA-43E5-8F45-05C0D6E4C840</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1080,7 +1080,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>F045D7EA-7D62-4113-9084-8A41ECBF4B3E</string>
+			<string>82D14DE4-19BD-45ED-A751-7DCE3A56F940</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1106,7 +1106,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>C936DC94-E908-4654-9559-F9E1E6FB6E4D</string>
+			<string>5698E01E-CC86-4BE7-91AE-D19622F4FD42</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1128,7 +1128,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>EC15E99A-937F-41C2-89AC-12E12AAA1E7F</string>
+			<string>C7AC0EA5-FE63-4471-9951-B01330EA05E1</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1150,7 +1150,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>AA9D2598-AFAE-4D51-8485-402114398725</string>
+			<string>65D22AD8-8423-457F-83FE-09305EA61E8F</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1172,7 +1172,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>0F992119-285F-4117-8AF4-57724A76B044</string>
+			<string>25AFCF01-3113-4B60-957E-8C646C0A297A</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1194,7 +1194,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>C12EFE26-2A8A-4EF0-9AA0-56D56A345029</string>
+			<string>EA36BD72-E39C-4AD5-B19C-2C27029D637F</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1216,7 +1216,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>FB3B785C-A214-4598-809D-3618FAD9A515</string>
+			<string>033557BE-AF53-4E35-8BB7-DEB079E378A0</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1238,7 +1238,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>5CD1630F-7B6F-4D84-9E16-4946B132AA47</string>
+			<string>6D26EF03-E6B4-4869-AD70-F654CDE7A63F</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1260,7 +1260,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>5411C33B-8090-4EAF-92A4-41E867B5C450</string>
+			<string>9A9E680E-A650-48FD-A6B2-B5244184AB7B</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1284,7 +1284,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>1</integer>
 			<key>uuidString</key>
-			<string>DB1AD0CA-7FC1-4F54-B972-8A7E90D85A06</string>
+			<string>9C230C23-5A48-4A26-B05F-9C476689A2D9</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1306,7 +1306,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>6F97CD4B-2C48-4F80-9F5F-081CF19BD01E</string>
+			<string>6217CD28-FF9A-489C-92DB-5445337C9FAA</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1336,7 +1336,40 @@ return def.promise();
 			<key>useCount</key>
 			<integer>5</integer>
 			<key>uuidString</key>
-			<string>C024900F-364F-48D3-B7A3-BEEAF53091D9</string>
+			<string>EE4A478C-72B9-44BE-9934-33E7BD1A634D</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>dp.HTTP</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-24T23:47:43Z</date>
+			<key>extraInfo</key>
+			<dict/>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>deep.store.HTTP</string>
+			<key>lastUsed</key>
+			<date>2014-03-25T12:06:34Z</date>
+			<key>modificationDate</key>
+			<date>2014-03-27T11:59:29Z</date>
+			<key>plainText</key>
+			<string>deep.client.node.JSONClient.create({
+	protocol:%filltext:name=protocol:default=null%,
+	baseURI: "http://%filltext:name=baseUri%",
+	schema: {},
+	headers:{}, // statics headers
+	decorateHeaders: function(headers) {
+	}
+})</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>5</integer>
+			<key>uuidString</key>
+			<string>11AF2A8E-4F44-41C8-8E65-BC244AF46986</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1358,7 +1391,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>5CC804B8-D4BE-40A6-AB4A-6D5CD5ED6571</string>
+			<string>88D02C29-480B-4153-8CFA-E74242604B51</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1380,7 +1413,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>6D3FB434-C85D-4C4A-8FE2-A16626126D5D</string>
+			<string>7CE3DBB7-761E-41A4-9949-F451EA43103F</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1411,7 +1444,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>2</integer>
 			<key>uuidString</key>
-			<string>A15EF6DE-BB07-4DB3-96A1-C44787E85F6B</string>
+			<string>715B3E4D-3ABB-462D-93C3-F4008D9F3468</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1449,7 +1482,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>3</integer>
 			<key>uuidString</key>
-			<string>97CA0357-DB89-417C-B91C-12D3503111AB</string>
+			<string>6913FCC0-F901-421C-B9BB-6958D315FFE7</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1471,7 +1504,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>87328A59-3777-44EF-872E-48A0B670722B</string>
+			<string>DA243686-D330-48DD-B0B5-F4BE437125E7</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1484,6 +1517,8 @@ return def.promise();
 			<integer>0</integer>
 			<key>label</key>
 			<string></string>
+			<key>lastUsed</key>
+			<date>2014-03-26T10:28:08Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T13:00:31Z</date>
 			<key>plainText</key>
@@ -1493,7 +1528,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>A8F4D09A-1FAB-4E8A-B25B-C7A549E78B47</string>
+			<string>01A00626-5BED-402C-9567-C3D6A1952DFE</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1517,7 +1552,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>0D7334B3-8E9D-4712-A54C-A1FFB338BEC5</string>
+			<string>33104EB0-A646-453C-B575-F0E5740D7557</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1539,7 +1574,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>2243351C-AC8A-4A77-9FA2-A8F96D738B98</string>
+			<string>773AC8CF-7E70-4991-8195-3C0C894B719A</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1561,7 +1596,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>D97FA71D-1840-4E51-BC51-3BA120B658FF</string>
+			<string>45608AE6-ECDE-453A-9DEB-D20752051A5E</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1583,7 +1618,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>F8D7EF95-75E7-4A05-A3BF-80F46EEBF905</string>
+			<string>3F5F8E44-DF36-4243-B771-7623BCE3CCA6</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1605,7 +1640,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>3DBB0EDC-5584-4170-9353-C84DC8DC28E5</string>
+			<string>95326880-7D71-42F6-97ED-D813F43A1675</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1627,7 +1662,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>D81ECBE0-5D18-4063-B72B-DFF51CB0B9EF</string>
+			<string>3BE9BF93-A890-482A-A805-EB5CB506C519</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1640,6 +1675,8 @@ return def.promise();
 			<integer>0</integer>
 			<key>label</key>
 			<string>deep.roles(...).store(...).get(...)</string>
+			<key>lastUsed</key>
+			<date>2014-03-26T10:27:38Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T15:04:50Z</date>
 			<key>plainText</key>
@@ -1649,7 +1686,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>57FDD489-8DB7-4565-9B91-283C98F4DA1A</string>
+			<string>6DEDCD39-9E33-439D-9662-9B54D9E6E5D1</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1671,7 +1708,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>6524C897-F1FA-41F9-85A1-15EF158050C4</string>
+			<string>A90A7E29-0C6C-4AEB-A55B-083EBD5F94B5</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1693,7 +1730,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>8BDF842A-F9A0-43F3-BC6B-3D0A3E3BE2E5</string>
+			<string>4B9B052D-8DA8-4D6A-9065-93A41ECA94CC</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1717,7 +1754,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>1</integer>
 			<key>uuidString</key>
-			<string>82674799-7344-4A53-82CD-83D2A7895F38</string>
+			<string>DE2DBFD0-F0CC-4BEB-99F5-AA8E7B933363</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1739,7 +1776,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>288E1216-1315-4DAC-AAD0-1CEFCAB7B8A8</string>
+			<string>D7FBCFB2-D35E-4CD3-8F61-0BB14035F9DE</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1763,7 +1800,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>1</integer>
 			<key>uuidString</key>
-			<string>BA05F1AC-E13B-4EE4-A58A-6E117839434C</string>
+			<string>7196ACBE-74EC-4FDE-8842-AEBD4F5362C1</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1785,7 +1822,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>B3CD7433-F9D1-4222-BFB4-B7D914A39D69</string>
+			<string>DFB0282B-3F0A-49E8-B254-691C3236C80F</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1807,7 +1844,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>E556C758-5BC4-4DB1-803D-B4F767883F17</string>
+			<string>FC31B46A-B043-4A1A-9FF0-5EDFA460B951</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1829,7 +1866,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>7D1CA3A9-3588-46D9-B135-F44A8CE9FA6E</string>
+			<string>38A2623B-1A93-454A-A34A-4509D22EFE08</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1851,7 +1888,7 @@ return def.promise();
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>BAC83F13-174B-4C7A-AAA0-B1EC94969AAC</string>
+			<string>5D2F7220-39D0-497C-8693-23F063471AB3</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1877,7 +1914,7 @@ protocol:"your_protoc"
 			<key>useCount</key>
 			<integer>1</integer>
 			<key>uuidString</key>
-			<string>D4219290-08E3-47F4-880C-7AE381259B0B</string>
+			<string>9DCDFC4A-FF10-46EC-AE21-A80963036782</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1899,7 +1936,7 @@ protocol:"your_protoc"
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>ABE8367A-4672-4175-8489-339AFA36DBDA</string>
+			<string>3AEF9166-F928-4121-86A6-7FEB803CEAAB</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1921,7 +1958,7 @@ protocol:"your_protoc"
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>FE9E226F-D0D8-4824-9941-B2AC29A0BC6D</string>
+			<string>CEDB5B4D-CBA0-4359-BBC0-40E6E392216B</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1946,7 +1983,7 @@ protocol:"your_protoc"
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>87D4B469-67FC-4D90-920D-7D695DA5BD0E</string>
+			<string>9936174F-3C6C-4899-B048-696F08D900AA</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1971,7 +2008,7 @@ protocol:"your_protoc"
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>474AE3B0-BD65-4F11-B690-E1F1D2630F31</string>
+			<string>50251630-DA86-4C0C-8B16-B9F5EFD47A56</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1993,7 +2030,7 @@ protocol:"your_protoc"
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>F5D9DAC6-3BFC-4EA0-A5D7-1CB89766BFF4</string>
+			<string>A1FCA4B0-C892-4A5C-85CD-4A67559D42D0</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -2015,7 +2052,7 @@ protocol:"your_protoc"
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>A1FC0786-BA58-41CE-A964-62B91553A07B</string>
+			<string>D1A21430-07F6-4552-A15D-758A0D1D11CF</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -2037,7 +2074,7 @@ protocol:"your_protoc"
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>40B2B35F-3B0F-45AD-94D8-2B3ACED7D940</string>
+			<string>7212C175-A2B2-438F-8AC0-BA35B8D31B07</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -2059,7 +2096,7 @@ protocol:"your_protoc"
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>0C5E3F01-B918-40EB-8AFB-33EA2986EC75</string>
+			<string>C2706BE3-F3B2-40B8-A79C-E4393526BCF6</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -2081,7 +2118,7 @@ protocol:"your_protoc"
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>7DB448AB-4ABA-48F0-87DE-36C30477C720</string>
+			<string>016A64D0-A0A2-4A75-BF45-56501C10BDC7</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -2119,7 +2156,7 @@ define(["require","../deep"], function (require, deep) {
 			<key>useCount</key>
 			<integer>3</integer>
 			<key>uuidString</key>
-			<string>520029CF-1424-4BE9-B21E-1575047098A5</string>
+			<string>DB8C5A78-0ABE-474E-8DE0-9BB83B97B8B8</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -2141,7 +2178,7 @@ define(["require","../deep"], function (require, deep) {
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>FD41DFC1-BE2D-441C-BD98-4A8EA18BC646</string>
+			<string>584DC935-6F1B-4ABE-A9DA-F4B0D338DFF4</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -2163,7 +2200,7 @@ define(["require","../deep"], function (require, deep) {
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>F5145728-CAB7-4334-A52F-44FC31749872</string>
+			<string>6CC60544-AD58-4856-A8CF-62842221DE5B</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -2191,7 +2228,7 @@ where:"dom.htmlOf::#content"
 			<key>useCount</key>
 			<integer>2</integer>
 			<key>uuidString</key>
-			<string>3EED1DC0-3B34-4525-A6D1-7A331EAA72AE</string>
+			<string>81C8E14C-CBF1-487C-A1D3-E859EBBF3FA6</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -2219,7 +2256,7 @@ where:"dom.htmlOf::#content"
 			<key>useCount</key>
 			<integer>1</integer>
 			<key>uuidString</key>
-			<string>429D1CAD-ED93-4441-A1EE-F97F41E6BAE3</string>
+			<string>1761E7EA-A070-467E-889E-6DCF62D3B2F0</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -2241,7 +2278,7 @@ where:"dom.htmlOf::#content"
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>3AE381AA-2582-4A4B-B62E-A89B8A202E12</string>
+			<string>0C02F712-01FC-4309-9737-4608FB2E3CB1</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -2263,7 +2300,7 @@ where:"dom.htmlOf::#content"
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>51EE27CE-6376-4E22-A4D3-A7AE1DF8CAF2</string>
+			<string>5E968788-5442-49A4-AA05-286BF90D1350</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -2285,7 +2322,7 @@ where:"dom.htmlOf::#content"
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>0A68D352-BDB5-4869-9A85-388C0118C5C8</string>
+			<string>25BEF5B0-2198-49A0-8E9A-A3F93202A086</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -2307,7 +2344,7 @@ where:"dom.htmlOf::#content"
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>0D9ED141-36B0-4CEE-B235-0FDB1594A86A</string>
+			<string>83998DF2-1F6E-477C-92F2-0D371167FBCF</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -2329,7 +2366,7 @@ where:"dom.htmlOf::#content"
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>A45D435E-3A7E-41FE-9550-941DD50C4B9C</string>
+			<string>318BC5A2-288E-426C-9C9F-7CE73FCA2AB3</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -2351,7 +2388,7 @@ where:"dom.htmlOf::#content"
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>FE41892C-2227-4B7D-9BE6-1844BB282AC4</string>
+			<string>1715E1F7-93C3-4337-9B52-0334677F6C52</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -2373,7 +2410,7 @@ where:"dom.htmlOf::#content"
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>47F13292-2B6A-4129-889C-25A4705E35F0</string>
+			<string>9AA0DD6C-F772-418A-ABF8-022B9524AC39</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -2395,7 +2432,7 @@ where:"dom.htmlOf::#content"
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>0C2551B5-A5CB-4FF7-9EFE-4BB46BB15303</string>
+			<string>96899028-2485-4AA1-9AAA-5026E74FA132</string>
 		</dict>
 	</array>
 </dict>
