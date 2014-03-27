@@ -756,7 +756,7 @@ return function(){
 			<key>label</key>
 			<string>deep.compose.before</string>
 			<key>lastUsed</key>
-			<date>2013-07-09T09:54:27Z</date>
+			<date>2014-03-27T11:46:23Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T13:06:28Z</date>
 			<key>plainText</key>
@@ -1171,19 +1171,22 @@ return def.promise();
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2014-03-24T23:47:43Z</date>
+			<key>extraInfo</key>
+			<dict/>
 			<key>flags</key>
 			<integer>0</integer>
 			<key>label</key>
-			<string>deep.store.Mongo</string>
+			<string>deep.store.HTTP</string>
 			<key>lastUsed</key>
 			<date>2014-03-25T12:06:34Z</date>
 			<key>modificationDate</key>
-			<date>2014-03-27T11:33:31Z</date>
+			<date>2014-03-27T11:59:29Z</date>
 			<key>plainText</key>
 			<string>deep.client.node.JSONClient.create({
+	protocol:%filltext:name=protocol:default=null%,
 	baseURI: "http://%filltext:name=baseUri%",
 	schema: {},
-	headers:{},
+	headers:{}, // statics headers
 	decorateHeaders: function(headers) {
 	}
 })</string>
