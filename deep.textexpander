@@ -13,6 +13,176 @@
 	<array>
 		<dict>
 			<key>abbreviation</key>
+			<string>.rla</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-27T10:55:52Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2014-03-27T10:56:06Z</date>
+			<key>plainText</key>
+			<string>.roles("admin")</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>EE81B061-3FA1-4897-A2AD-0A8409A33504</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>.rlp</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-27T10:55:52Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2014-03-27T10:56:25Z</date>
+			<key>plainText</key>
+			<string>.roles("public")</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>76FF0632-11B0-4C6F-9024-6FECC26CE7D7</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>.rlu</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-27T10:54:17Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2014-03-27T10:56:57Z</date>
+			<key>modificationDate</key>
+			<date>2014-03-27T10:55:47Z</date>
+			<key>plainText</key>
+			<string>.roles("user")</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>090D9932-7EBA-4A96-95E3-6AA0DF71C5F5</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>.rlg</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-27T10:53:47Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>.roles("god")</string>
+			<key>lastUsed</key>
+			<date>2014-03-27T10:56:53Z</date>
+			<key>modificationDate</key>
+			<date>2014-03-27T10:55:32Z</date>
+			<key>plainText</key>
+			<string>.roles("god")</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>C2C33E96-D5E0-439F-A77A-74B010F5332D</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>dp.god</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-27T10:52:14Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>deep.roles("god")</string>
+			<key>modificationDate</key>
+			<date>2014-03-27T10:53:21Z</date>
+			<key>plainText</key>
+			<string>deep.roles("god")</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>E37DB03F-9A67-47BF-AA4C-5A8C1875A6EE</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>dp.ocm.mongo.full</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-27T10:23:24Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>ocm mongo with env/roles</string>
+			<key>modificationDate</key>
+			<date>2014-03-27T12:02:13Z</date>
+			<key>plainText</key>
+			<string>	deep.ocm({
+		dev:deep.store.Mongo.create({
+			collectionName:"user",
+			url:"mongodb://127.0.0.1:27017/open-talk",
+			index:{
+				email:{ keys:{ email:"text" }, options:{ unique:true }}
+			},
+			schema:{
+				properties:{
+					email: { type:"string", required:true, minLength:6, format:"email" },
+					password: { type:"string", required:true, minLength:6, encryption:"sha1" },
+					valid:{ type:"bool", required:true, "default":false },
+					key:{ type:"string", required:true }
+				},
+				additionnalProperty:false,
+				links:[]
+			}
+		}),
+		prod:{
+			backgrounds:["this::../dev"]
+		},
+		god:{
+
+		},
+		admin:{
+			
+		},
+		user:{
+			backgrounds:["this::../admin", deep.store.AllowOnly("get")],
+			schema:{
+				ownerRestriction:"id"
+			}
+		},
+		'public':{}
+	}, { protocol:"user", groups:["env", "roles"] }),</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>411E33E9-03F7-4C9D-994E-EECF687E8D4E</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
 			<string>.after</string>
 			<key>abbreviationMode</key>
 			<integer>0</integer>
@@ -80,12 +250,12 @@
 			<key>lastUsed</key>
 			<date>2013-07-09T09:54:30Z</date>
 			<key>modificationDate</key>
-			<date>2014-03-25T13:33:46Z</date>
+			<date>2014-03-27T10:50:32Z</date>
 			<key>plainText</key>
 			<string>.around(function(old){
-return function(){
-%|
-};
+     return function(){
+          %|
+     };
 })</string>
 			<key>snippetType</key>
 			<integer>0</integer>
@@ -108,10 +278,10 @@ return function(){
 			<key>lastUsed</key>
 			<date>2013-07-09T09:54:30Z</date>
 			<key>modificationDate</key>
-			<date>2014-03-25T13:33:50Z</date>
+			<date>2014-03-27T10:50:38Z</date>
 			<key>plainText</key>
 			<string>.before(function(){
-%|
+     %|
 })</string>
 			<key>snippetType</key>
 			<integer>0</integer>
@@ -154,7 +324,7 @@ return function(){
 			<key>label</key>
 			<string>promise.done</string>
 			<key>lastUsed</key>
-			<date>2014-03-26T09:55:33Z</date>
+			<date>2014-03-27T16:21:04Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T13:28:44Z</date>
 			<key>plainText</key>
@@ -510,6 +680,8 @@ return function(){
 			<integer>0</integer>
 			<key>label</key>
 			<string></string>
+			<key>lastUsed</key>
+			<date>2014-03-27T10:18:28Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T13:13:11Z</date>
 			<key>plainText</key>
@@ -602,7 +774,7 @@ return function(){
 		</dict>
 		<dict>
 			<key>abbreviation</key>
-			<string>dp.c.flat</string>
+			<string>.flat</string>
 			<key>abbreviationMode</key>
 			<integer>0</integer>
 			<key>creationDate</key>
@@ -612,9 +784,9 @@ return function(){
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
-			<date>2014-03-25T13:22:01Z</date>
+			<date>2014-03-27T11:04:56Z</date>
 			<key>plainText</key>
-			<string></string>
+			<string>.flatten()</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
@@ -633,6 +805,8 @@ return function(){
 			<integer>0</integer>
 			<key>label</key>
 			<string></string>
+			<key>lastUsed</key>
+			<date>2014-03-27T09:16:16Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T13:35:11Z</date>
 			<key>plainText</key>
@@ -704,10 +878,10 @@ return function(){
 			<key>lastUsed</key>
 			<date>2013-07-09T09:54:27Z</date>
 			<key>modificationDate</key>
-			<date>2014-03-25T13:06:04Z</date>
+			<date>2014-03-27T11:08:12Z</date>
 			<key>plainText</key>
 			<string>deep.compose.after(function(){
-%|
+	%|
 })</string>
 			<key>snippetType</key>
 			<integer>0</integer>
@@ -730,12 +904,12 @@ return function(){
 			<key>lastUsed</key>
 			<date>2013-07-09T09:54:27Z</date>
 			<key>modificationDate</key>
-			<date>2014-03-25T13:06:09Z</date>
+			<date>2014-03-27T11:08:07Z</date>
 			<key>plainText</key>
 			<string>deep.compose.around(function(old){
-return function(){
-%|
-};
+	return function(){
+		%|
+	};
 })</string>
 			<key>snippetType</key>
 			<integer>0</integer>
@@ -758,10 +932,10 @@ return function(){
 			<key>lastUsed</key>
 			<date>2013-07-09T09:54:27Z</date>
 			<key>modificationDate</key>
-			<date>2014-03-25T13:06:28Z</date>
+			<date>2014-03-27T11:07:58Z</date>
 			<key>plainText</key>
 			<string>deep.compose.before(function(){
-%|
+	%|
 })</string>
 			<key>snippetType</key>
 			<integer>0</integer>
@@ -1146,7 +1320,7 @@ return def.promise();
 			<key>label</key>
 			<string>deep.store.Mongo</string>
 			<key>lastUsed</key>
-			<date>2014-03-25T12:06:34Z</date>
+			<date>2014-03-27T10:18:18Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T12:46:54Z</date>
 			<key>plainText</key>
@@ -1289,9 +1463,9 @@ return def.promise();
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
-			<date>2014-03-25T13:00:38Z</date>
+			<date>2014-03-27T11:10:23Z</date>
 			<key>plainText</key>
-			<string></string>
+			<string>deep.protocol("%filltext:name=name%"%|);</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
@@ -1332,6 +1506,8 @@ return def.promise();
 			<integer>0</integer>
 			<key>label</key>
 			<string>deep.query</string>
+			<key>lastUsed</key>
+			<date>2014-03-27T15:18:51Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T12:43:30Z</date>
 			<key>plainText</key>
@@ -1759,7 +1935,7 @@ protocol:"your_protoc"
 			<key>label</key>
 			<string>deep.Unit.run()</string>
 			<key>lastUsed</key>
-			<date>2014-03-25T00:45:50Z</date>
+			<date>2014-03-26T17:57:21Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T12:45:55Z</date>
 			<key>plainText</key>
@@ -1784,7 +1960,7 @@ protocol:"your_protoc"
 			<key>label</key>
 			<string>deep.Unit.run(...,false)</string>
 			<key>lastUsed</key>
-			<date>2014-03-25T00:46:21Z</date>
+			<date>2014-03-27T16:39:09Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T12:45:59Z</date>
 			<key>plainText</key>
@@ -1919,7 +2095,7 @@ protocol:"your_protoc"
 			<key>label</key>
 			<string>deep.Unit</string>
 			<key>lastUsed</key>
-			<date>2014-03-25T11:20:12Z</date>
+			<date>2014-03-27T12:03:13Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T13:04:49Z</date>
 			<key>plainText</key>

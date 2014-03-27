@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>requirejs</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>rq.module</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-06-14T10:34:28Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>require.module</string>
+			<key>lastUsed</key>
+			<date>2013-12-04T22:07:31Z</date>
+			<key>modificationDate</key>
+			<date>2014-03-25T14:34:43Z</date>
+			<key>plainText</key>
+			<string>/**
+ * @author %snippet:me.name% &lt;%snippet:me.mail%&gt;
+ *
+ */
+ 
+if(typeof define !== 'function')
+	var define = require('amdefine')(module);
+
+define(["require"], function(require){
+	%|
+});</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>1AC7F951-A49B-4217-9556-21047BFC8495</string>
+		</dict>
+	</array>
+</dict>
+</plist>

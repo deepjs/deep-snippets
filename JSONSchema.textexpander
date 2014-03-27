@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>JSONSchema</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>sch:link</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-27T11:00:30Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>link relation entry</string>
+			<key>modificationDate</key>
+			<date>2014-03-27T11:03:38Z</date>
+			<key>plainText</key>
+			<string>{ rel:"%filltext:name=relation%", href:"%filltext:name=href%" }%|</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>F0051AB6-A0EF-43A4-B40E-C12BE3A23644</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>sch:links</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-27T11:00:30Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>links entry</string>
+			<key>modificationDate</key>
+			<date>2014-03-27T11:05:20Z</date>
+			<key>plainText</key>
+			<string>links:[
+	{ rel:"%filltext:name=relation%", href:"%filltext:name=href%" }%|
+]</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>8D711466-E4DF-4091-9568-C6C5954F06D3</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>sch:a</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-02-02T01:52:27Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>json.schema.array</string>
+			<key>lastUsed</key>
+			<date>2012-02-02T18:39:41Z</date>
+			<key>modificationDate</key>
+			<date>2014-03-27T10:58:21Z</date>
+			<key>plainText</key>
+			<string>"%fill:propName%": { type:"array", required:true, items:{ type:"%fill:itemsType%" } },
+%|</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>10</integer>
+			<key>uuidString</key>
+			<string>D0D68EF6-5675-4A22-A735-0B90B500520C</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>sch:b</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-02-02T01:49:09Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>json.schema.bool</string>
+			<key>lastUsed</key>
+			<date>2012-02-04T16:55:29Z</date>
+			<key>modificationDate</key>
+			<date>2014-03-27T10:58:30Z</date>
+			<key>plainText</key>
+			<string>"%fill:propName%": { type:"bool", required:true },
+%|</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>27</integer>
+			<key>uuidString</key>
+			<string>CDE2B4C5-CBBC-4C7C-84CA-59863FCD3035</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>sch:contact</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-02-02T18:23:45Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>json.schema.contact</string>
+			<key>modificationDate</key>
+			<date>2014-03-25T15:21:31Z</date>
+			<key>plainText</key>
+			<string>{
+		"id": { typ:"string", indexed:true, required:false }, 
+		"firstName": { type:"string", required:true },
+		"lastName": { type:"string", required:true },  
+		"function": { type:"string", required:true },  
+		"phone": { type:"string", required:true, format:"phone" },  		"fax": { type:"string", required:true, format:"phone" },  
+		"email": { type:"string", required:true, format:"email" },  		"notes": { type:"string", required:true } 
+}</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>37C61E37-AFB9-494C-BA7B-3666D2DA14E5</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>sch:id</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-02-02T18:15:37Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>json.schema.id</string>
+			<key>lastUsed</key>
+			<date>2012-02-02T18:37:41Z</date>
+			<key>modificationDate</key>
+			<date>2014-03-27T10:59:01Z</date>
+			<key>plainText</key>
+			<string>"id": { type:"string", required:false },</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>856E1D64-F6CB-4178-ABDA-E4B848357242</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>sch:mail</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-02-02T01:51:04Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>json.schema.email</string>
+			<key>lastUsed</key>
+			<date>2012-02-05T23:13:05Z</date>
+			<key>modificationDate</key>
+			<date>2014-03-25T15:24:47Z</date>
+			<key>plainText</key>
+			<string>"%fill:propName%": { type:"string", required:true, format:"email", 'private':true }, %|</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>26E3792F-3C7F-4DF5-865F-89072C08A402</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>sch:o</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-25T15:23:17Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>json.schema</string>
+			<key>modificationDate</key>
+			<date>2014-03-25T15:23:58Z</date>
+			<key>plainText</key>
+			<string>{
+properties:{
+
+},
+additionnalProperties:false
+}</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>762A3508-B3F7-4844-9CE5-F125435EBD39</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>sch:phone</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-02-02T18:20:13Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>json.schema.phone</string>
+			<key>lastUsed</key>
+			<date>2012-02-02T18:22:03Z</date>
+			<key>modificationDate</key>
+			<date>2014-03-25T15:21:49Z</date>
+			<key>plainText</key>
+			<string>"%fill:propName%": { type:"string", required:true, format:"phone" }, %|</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>2DA60195-601F-4FDF-BC9B-232ED1548557</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>sch:s</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-02-02T01:49:09Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>json.schema.string</string>
+			<key>lastUsed</key>
+			<date>2012-02-04T16:55:29Z</date>
+			<key>modificationDate</key>
+			<date>2014-03-27T10:59:48Z</date>
+			<key>plainText</key>
+			<string>"%fill:propName%": { type:"string", required:true }, %|</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>27</integer>
+			<key>uuidString</key>
+			<string>79F9FB12-E83A-4F8D-998D-03440E5299DB</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>sch:uri</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-02-02T18:20:42Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>json.schema.uri</string>
+			<key>lastUsed</key>
+			<date>2012-02-02T18:38:52Z</date>
+			<key>modificationDate</key>
+			<date>2014-03-25T15:21:56Z</date>
+			<key>plainText</key>
+			<string>"%fill:propName%": { type:"string", required:true, format:"uri" }, %|</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>F5505EF7-D334-48C9-B623-47226109ECD7</string>
+		</dict>
+	</array>
+</dict>
+</plist>
