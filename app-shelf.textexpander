@@ -50,15 +50,17 @@ npm install
 			<key>label</key>
 			<string></string>
 			<key>lastUsed</key>
-			<date>2014-03-25T14:59:19Z</date>
+			<date>2014-03-27T15:34:14Z</date>
 			<key>modificationDate</key>
-			<date>2014-03-27T15:29:47Z</date>
+			<date>2014-03-27T15:54:06Z</date>
 			<key>plainText</key>
 			<string>git clone https://github.com/deepjs/autobahn-shelf.git %filltext:name=appName%
 cd %filltext:name=appName%
+git remote rm origin
 npm install
 git clone https://github.com/deepjs/browser-shelf.git ./www
 cd www
+git remote rm origin
 bower install
 cd ..
 
