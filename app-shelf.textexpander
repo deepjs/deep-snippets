@@ -23,20 +23,21 @@
 			<key>label</key>
 			<string></string>
 			<key>lastUsed</key>
-			<date>2014-03-25T15:00:03Z</date>
+			<date>2014-03-27T17:04:50Z</date>
 			<key>modificationDate</key>
-			<date>2014-03-27T15:28:51Z</date>
+			<date>2014-03-28T09:44:09Z</date>
 			<key>plainText</key>
 			<string>git clone https://github.com/deepjs/autobahn-shelf.git ./%filltext:name=appName%
 cd %filltext:name=appName%
 npm install
+%snippet:sublime.open%
 </string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
 			<integer>1</integer>
 			<key>uuidString</key>
-			<string>711D3C49-E8D5-46D5-BA77-FC6DC351752C</string>
+			<string>A46122CD-A6C4-4808-B631-08F0BFE929B3</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -50,9 +51,9 @@ npm install
 			<key>label</key>
 			<string></string>
 			<key>lastUsed</key>
-			<date>2014-03-27T15:34:14Z</date>
+			<date>2014-03-28T08:54:19Z</date>
 			<key>modificationDate</key>
-			<date>2014-03-27T15:54:06Z</date>
+			<date>2014-03-28T09:44:38Z</date>
 			<key>plainText</key>
 			<string>git clone https://github.com/deepjs/autobahn-shelf.git %filltext:name=appName%
 cd %filltext:name=appName%
@@ -62,15 +63,17 @@ git clone https://github.com/deepjs/browser-shelf.git ./www
 cd www
 git remote rm origin
 bower install
-cd ..
-
+cd libs/swig
+make
+cd ../../..
+%snippet:sublime.open%
 </string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
 			<integer>1</integer>
 			<key>uuidString</key>
-			<string>D41798DE-AB37-4FA7-B738-1D70AB7D2AFD</string>
+			<string>E6AC9183-312E-473A-B8C3-3DC92BB0001E</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -84,20 +87,25 @@ cd ..
 			<key>label</key>
 			<string></string>
 			<key>lastUsed</key>
-			<date>2014-03-25T15:00:26Z</date>
+			<date>2014-03-27T17:19:59Z</date>
 			<key>modificationDate</key>
-			<date>2014-03-27T15:30:53Z</date>
+			<date>2014-03-28T09:44:41Z</date>
 			<key>plainText</key>
-			<string>git clone https://github.com/deepjs/browser-shelf.git %filltext:name=dirName:default=www%
-cd %filltext:name=dirName:default=www%
-npm install
+			<string>git clone https://github.com/deepjs/browser-shelf.git ./%filltext:name=appName%
+cd %filltext:name=appName%
+git remote rm origin
+bower install
+cd libs/swig
+make
+cd ../..
+%snippet:sublime.open%
 </string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
 			<integer>1</integer>
 			<key>uuidString</key>
-			<string>FF98AC38-A48B-4F81-B91C-F3064116C180</string>
+			<string>B9ECDBA9-564B-46AE-85A2-92A6E60A0BA1</string>
 		</dict>
 	</array>
 </dict>

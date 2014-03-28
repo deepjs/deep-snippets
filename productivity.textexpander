@@ -7,43 +7,33 @@
 		<key>expandAfterMode</key>
 		<integer>0</integer>
 		<key>groupName</key>
-		<string>requirejs</string>
+		<string>productivity</string>
 	</dict>
 	<key>snippetsTE2</key>
 	<array>
 		<dict>
 			<key>abbreviation</key>
-			<string>rq.module</string>
+			<string>sublime.open</string>
 			<key>abbreviationMode</key>
 			<integer>0</integer>
 			<key>creationDate</key>
-			<date>2013-06-14T10:34:28Z</date>
+			<date>2014-03-28T09:38:37Z</date>
 			<key>flags</key>
 			<integer>0</integer>
 			<key>label</key>
-			<string>require.module</string>
+			<string>open sublime cwd</string>
 			<key>lastUsed</key>
-			<date>2013-12-04T22:07:31Z</date>
+			<date>2014-03-28T09:42:27Z</date>
 			<key>modificationDate</key>
-			<date>2014-03-25T14:34:43Z</date>
+			<date>2014-03-28T09:42:11Z</date>
 			<key>plainText</key>
-			<string>/**
- * @author %snippet:me.name% &lt;%snippet:me.mail%&gt;
- *
- */
- 
-if(typeof define !== 'function')
-	var define = require('amdefine')(module);
-
-define(["require"], function(require){
-	%|
-});</string>
+			<string>/Applications/Sublime\ Text\.app/Contents/SharedSupport/bin/subl .</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>2</integer>
+			<integer>0</integer>
 			<key>uuidString</key>
-			<string>F84B70F9-AC27-4391-B25F-64A534D1989D</string>
+			<string>573B3F0C-9F5E-459B-8D04-40200ED7FCBE</string>
 		</dict>
 	</array>
 </dict>

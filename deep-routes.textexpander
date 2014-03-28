@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>deep-routes</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>dr.map.server</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-03-28T09:04:56Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>deep.routes.Map</string>
+			<key>lastUsed</key>
+			<date>2014-03-28T09:05:34Z</date>
+			<key>modificationDate</key>
+			<date>2014-03-28T09:45:23Z</date>
+			<key>plainText</key>
+			<string>require("deepjs/lib/view");
+require("deep-node/lib/fs/json").create({
+	protocol: "json",
+	basePath: "/www"
+});
+require("deep-swig");
+deep.client.Swig.init({});
+deep.client.Swig.create({
+	protocol: "swig",
+	basePath: "/www"
+});
+
+var htmls = {
+	head: deep.View({
+		how:'&lt;title&gt;html from server&lt;/title&gt;' +
+			'&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;' ,
+		where: "dom.appendTo::head"
+	}),
+	body: deep.View({
+		how: "&lt;div&gt;body&lt;div id='topbar'&gt;&lt;/div&gt;&lt;div id='content'&gt;&lt;/div&gt;&lt;/div&gt;",
+		where: "dom.appendTo::body",
+		subs: {
+			
+		}
+	})
+	/*,app: deep.View({
+		how:'&lt;script src="/libs/jquery-1.11.0.min.js"&gt;&lt;/script&gt;' +
+			'&lt;script src="/libs/swig.min.js"&gt;&lt;/script&gt;' +
+			'&lt;script src="/libs/jstorage.min.js"&gt;&lt;/script&gt;' +
+			'&lt;script data-main="/main" src="/libs/require.js"&gt;&lt;/script&gt;',
+		where: "dom.appendTo::body"
+	})*/
+};
+
+module.exports = htmls;
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>B89FA87F-7D49-4E02-BFAC-8FD9552BF467</string>
+		</dict>
+	</array>
+</dict>
+</plist>

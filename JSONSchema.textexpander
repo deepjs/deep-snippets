@@ -31,7 +31,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>F0051AB6-A0EF-43A4-B40E-C12BE3A23644</string>
+			<string>1CCD55C7-4F0D-40BC-A687-0A6288ED0E96</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -55,7 +55,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>8D711466-E4DF-4091-9568-C6C5954F06D3</string>
+			<string>37823AD9-BD61-4138-A8C4-75AF6C93B162</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -80,7 +80,7 @@
 			<key>useCount</key>
 			<integer>10</integer>
 			<key>uuidString</key>
-			<string>D0D68EF6-5675-4A22-A735-0B90B500520C</string>
+			<string>2248ACF1-9BDA-4B19-8EA2-C174244727E5</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -105,7 +105,7 @@
 			<key>useCount</key>
 			<integer>27</integer>
 			<key>uuidString</key>
-			<string>CDE2B4C5-CBBC-4C7C-84CA-59863FCD3035</string>
+			<string>931856B7-A68E-45EB-A00B-2576B4865E82</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -134,7 +134,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>37C61E37-AFB9-494C-BA7B-3666D2DA14E5</string>
+			<string>53A0C575-8315-4013-B73A-DA00F2746873</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -158,7 +158,7 @@
 			<key>useCount</key>
 			<integer>3</integer>
 			<key>uuidString</key>
-			<string>856E1D64-F6CB-4178-ABDA-E4B848357242</string>
+			<string>1246CCF3-F5B3-4B2D-A7DB-69213DAFC173</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -182,7 +182,7 @@
 			<key>useCount</key>
 			<integer>2</integer>
 			<key>uuidString</key>
-			<string>26E3792F-3C7F-4DF5-865F-89072C08A402</string>
+			<string>59BD174D-931C-4AD5-840B-B05930DA0428</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -209,7 +209,7 @@ additionnalProperties:false
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>762A3508-B3F7-4844-9CE5-F125435EBD39</string>
+			<string>5B4A99A2-9AFE-4BEC-98B5-50B04CCA2B02</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -233,7 +233,7 @@ additionnalProperties:false
 			<key>useCount</key>
 			<integer>2</integer>
 			<key>uuidString</key>
-			<string>2DA60195-601F-4FDF-BC9B-232ED1548557</string>
+			<string>FB966392-E118-4BCE-8FAC-711719E86A69</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -257,7 +257,7 @@ additionnalProperties:false
 			<key>useCount</key>
 			<integer>27</integer>
 			<key>uuidString</key>
-			<string>79F9FB12-E83A-4F8D-998D-03440E5299DB</string>
+			<string>BBA3B5B1-3F94-4A06-9DE2-3B0AE79B8767</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -281,7 +281,7 @@ additionnalProperties:false
 			<key>useCount</key>
 			<integer>2</integer>
 			<key>uuidString</key>
-			<string>F5505EF7-D334-48C9-B623-47226109ECD7</string>
+			<string>23B878D6-C0F8-40BE-B959-15B9193F3ACF</string>
 		</dict>
 	</array>
 </dict>

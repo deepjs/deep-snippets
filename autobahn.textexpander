@@ -67,7 +67,7 @@ var htmls = {
 			<key>useCount</key>
 			<integer>1</integer>
 			<key>uuidString</key>
-			<string>259AF921-E661-4488-9561-101453D398D6</string>
+			<string>C8081412-8BEA-41B2-8D4B-1F5334E3B2DA</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -81,7 +81,7 @@ var htmls = {
 			<key>label</key>
 			<string>autobahn full index</string>
 			<key>lastUsed</key>
-			<date>2014-03-25T11:25:58Z</date>
+			<date>2014-03-28T08:56:02Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T12:58:40Z</date>
 			<key>plainText</key>
@@ -177,7 +177,7 @@ var repl = require("repl")
 			<key>useCount</key>
 			<integer>1</integer>
 			<key>uuidString</key>
-			<string>C8E0B54A-1D77-4AD7-BF0E-209719FC3976</string>
+			<string>F9D716F3-B0AA-4135-B6B5-6E9BE0CFD486</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -190,19 +190,23 @@ var repl = require("repl")
 			<integer>0</integer>
 			<key>label</key>
 			<string>autobahn restful map</string>
+			<key>lastUsed</key>
+			<date>2014-03-28T08:56:36Z</date>
 			<key>modificationDate</key>
-			<date>2014-03-25T12:58:23Z</date>
+			<date>2014-03-28T08:58:32Z</date>
 			<key>plainText</key>
 			<string>var services = {
 	"/your/route":%|
 };
-</string>
+
+
+module.exports = services;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>F8667A0B-696B-41F8-A1EA-36C00D68340E</string>
+			<string>ACB09AA1-71A9-4302-B46A-FC11AECF3C3F</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -215,6 +219,8 @@ var repl = require("repl")
 			<integer>0</integer>
 			<key>label</key>
 			<string>autobahn statics entry</string>
+			<key>lastUsed</key>
+			<date>2014-03-28T08:59:11Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T12:58:32Z</date>
 			<key>plainText</key>
@@ -230,7 +236,7 @@ var repl = require("repl")
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>BE8973CB-F712-42FE-9F3D-8101A05169AB</string>
+			<string>29A5A7FC-F9F3-4715-9857-6BA1DEC88BD8</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -243,8 +249,10 @@ var repl = require("repl")
 			<integer>0</integer>
 			<key>label</key>
 			<string>autobahn statics map</string>
+			<key>lastUsed</key>
+			<date>2014-03-28T08:58:45Z</date>
 			<key>modificationDate</key>
-			<date>2014-03-25T12:58:28Z</date>
+			<date>2014-03-28T08:58:21Z</date>
 			<key>plainText</key>
 			<string>var statics = {
 	"/": [{
@@ -255,13 +263,14 @@ var repl = require("repl")
 		}
 	}]
 };
-</string>
+
+module.exports = statics;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>D8C6DA89-4580-4F37-953B-D296833F1FC6</string>
+			<string>AC3047EF-E632-4287-930C-64A596B3A2DF</string>
 		</dict>
 	</array>
 </dict>
