@@ -31,11 +31,11 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>F535A24C-BAF0-4CA8-BAE9-300856AE3E8D</string>
+			<string>3F62F72D-CAE9-400D-AF2D-F67EB419BB5C</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
-			<string>git:cl.hub</string>
+			<string>git.chub</string>
 			<key>abbreviationMode</key>
 			<integer>0</integer>
 			<key>creationDate</key>
@@ -44,16 +44,18 @@
 			<integer>0</integer>
 			<key>label</key>
 			<string></string>
+			<key>lastUsed</key>
+			<date>2014-03-28T15:02:15Z</date>
 			<key>modificationDate</key>
-			<date>2014-03-25T14:05:25Z</date>
+			<date>2014-03-28T15:02:08Z</date>
 			<key>plainText</key>
 			<string>git clone https://github.com/%|</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>uuidString</key>
-			<string>9A953D45-2E57-4A97-8B87-C716F14DEA80</string>
+			<string>C10E04BB-A948-4558-98D6-577FAF8530F8</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -78,7 +80,7 @@ git commit -m "%|"</string>
 			<key>useCount</key>
 			<integer>2</integer>
 			<key>uuidString</key>
-			<string>B0F0A0D0-0A19-4545-AF8E-A7E6C18DCA97</string>
+			<string>9D7E0905-FA2E-42EB-88D3-76E18DFE4C43</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -102,7 +104,7 @@ git commit -m "%|"</string>
 			<key>useCount</key>
 			<integer>10</integer>
 			<key>uuidString</key>
-			<string>270AD0F3-CEC2-4CD4-B61E-C7A8A1F0A9CD</string>
+			<string>3FA2B817-BE96-49E5-974A-5CFA6D8D51F1</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -126,7 +128,7 @@ git commit -m "%|"</string>
 			<key>useCount</key>
 			<integer>1</integer>
 			<key>uuidString</key>
-			<string>D900696A-927C-4E83-81A0-D4E0C23B18A8</string>
+			<string>BDAC6B1E-9BB1-47F6-9AC3-DA6F38CFA06C</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -150,7 +152,7 @@ git commit -m "%|"</string>
 			<key>useCount</key>
 			<integer>1</integer>
 			<key>uuidString</key>
-			<string>D55FE084-F069-4600-B644-C7AC8526FC16</string>
+			<string>4F91FEAF-82C9-4BBA-BD3A-5126EF063FEE</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -172,7 +174,7 @@ git commit -m "%|"</string>
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>0AD841EC-2DC8-4995-8E19-B5AF2FE46BDD</string>
+			<string>137B1450-3E8E-417C-983A-263F0D5F43CF</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -196,7 +198,7 @@ git commit -m "%|"</string>
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>523C4E68-1ECD-4AFC-8642-0B1C1BCFFE75</string>
+			<string>C7D09B31-68DC-4DAF-A899-D0F2D39A4874</string>
 		</dict>
 	</array>
 </dict>

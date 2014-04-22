@@ -175,7 +175,7 @@ var repl = require("repl")
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>uuidString</key>
 			<string>F9D716F3-B0AA-4135-B6B5-6E9BE0CFD486</string>
 		</dict>
@@ -204,7 +204,7 @@ module.exports = services;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>uuidString</key>
 			<string>ACB09AA1-71A9-4302-B46A-FC11AECF3C3F</string>
 		</dict>
@@ -234,7 +234,7 @@ module.exports = services;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>uuidString</key>
 			<string>29A5A7FC-F9F3-4715-9857-6BA1DEC88BD8</string>
 		</dict>
@@ -268,7 +268,7 @@ module.exports = statics;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>uuidString</key>
 			<string>AC3047EF-E632-4287-930C-64A596B3A2DF</string>
 		</dict>

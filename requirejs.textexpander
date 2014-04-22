@@ -23,7 +23,7 @@
 			<key>label</key>
 			<string>require.module</string>
 			<key>lastUsed</key>
-			<date>2013-12-04T22:07:31Z</date>
+			<date>2014-04-03T19:30:01Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T14:34:43Z</date>
 			<key>plainText</key>
@@ -41,7 +41,7 @@ define(["require"], function(require){
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>2</integer>
+			<integer>8</integer>
 			<key>uuidString</key>
 			<string>F84B70F9-AC27-4391-B25F-64A534D1989D</string>
 		</dict>

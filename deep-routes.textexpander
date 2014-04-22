@@ -66,7 +66,7 @@ module.exports = htmls;
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>uuidString</key>
 			<string>B89FA87F-7D49-4E02-BFAC-8FD9552BF467</string>
 		</dict>

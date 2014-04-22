@@ -13,6 +13,76 @@
 	<array>
 		<dict>
 			<key>abbreviation</key>
+			<string>dp.Mongo.tests</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-04-22T11:39:24Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>deep test mongo</string>
+			<key>lastUsed</key>
+			<date>2014-04-22T13:09:32Z</date>
+			<key>modificationDate</key>
+			<date>2014-04-22T11:40:21Z</date>
+			<key>plainText</key>
+			<string>deep.Unit.run("js::deep-mongo/units/generic")</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>1A4FC5C0-F481-4130-8F77-C745FB134D87</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>dp.Mongo.tests-</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-04-22T11:39:24Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>deep test mongo</string>
+			<key>lastUsed</key>
+			<date>2014-04-22T12:59:06Z</date>
+			<key>modificationDate</key>
+			<date>2014-04-22T11:40:42Z</date>
+			<key>plainText</key>
+			<string>deep.Unit.run("js::deep-mongo/units/generic", { verbose:false })</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>03119B73-3545-4DE5-AB39-36B372C49584</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>dp.jq.JSON</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-04-10T10:51:43Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>deep.jquery.JSON.create</string>
+			<key>modificationDate</key>
+			<date>2014-04-10T10:51:58Z</date>
+			<key>plainText</key>
+			<string></string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>29C8F8CB-A37E-459D-B113-47E0FA9602AE</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
 			<string>.rla</string>
 			<key>abbreviationMode</key>
 			<integer>0</integer>
@@ -179,7 +249,7 @@
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>uuidString</key>
 			<string>9CDD7361-2B22-43FD-A9C3-14B8B6C1ACA8</string>
 		</dict>
@@ -336,7 +406,7 @@
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>15</integer>
+			<integer>16</integer>
 			<key>uuidString</key>
 			<string>1D4E6063-6564-471F-B8FD-F3F7C273F238</string>
 		</dict>
@@ -691,7 +761,7 @@
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>uuidString</key>
 			<string>8ECD1244-4424-477A-8FA2-9FB6A5BA2830</string>
 		</dict>
@@ -737,7 +807,7 @@
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>3</integer>
+			<integer>4</integer>
 			<key>uuidString</key>
 			<string>254194D4-C9E0-42C0-AB9F-5AAF4EE747D6</string>
 		</dict>
@@ -1336,7 +1406,7 @@ return def.promise();
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>5</integer>
+			<integer>7</integer>
 			<key>uuidString</key>
 			<string>5E7FC225-CCD5-455C-988A-B120D2530CD1</string>
 		</dict>
@@ -1444,7 +1514,7 @@ return def.promise();
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>2</integer>
+			<integer>3</integer>
 			<key>uuidString</key>
 			<string>4794BBD9-B16E-489A-B5A9-315151C84ECC</string>
 		</dict>
@@ -1974,7 +2044,7 @@ protocol:"your_protoc"
 			<key>label</key>
 			<string>deep.Unit.run()</string>
 			<key>lastUsed</key>
-			<date>2014-03-26T17:57:21Z</date>
+			<date>2014-04-22T13:43:48Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T12:45:55Z</date>
 			<key>plainText</key>
@@ -1999,7 +2069,7 @@ protocol:"your_protoc"
 			<key>label</key>
 			<string>deep.Unit.run(...,false)</string>
 			<key>lastUsed</key>
-			<date>2014-03-28T09:02:22Z</date>
+			<date>2014-04-22T14:09:40Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T12:45:59Z</date>
 			<key>plainText</key>
@@ -2008,7 +2078,7 @@ protocol:"your_protoc"
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>uuidString</key>
 			<string>453E71CC-50B1-472C-8F2D-BCE13323CCF2</string>
 		</dict>
@@ -2134,7 +2204,7 @@ protocol:"your_protoc"
 			<key>label</key>
 			<string>deep.Unit</string>
 			<key>lastUsed</key>
-			<date>2014-03-27T17:36:14Z</date>
+			<date>2014-03-31T19:13:27Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T13:04:49Z</date>
 			<key>plainText</key>
@@ -2156,7 +2226,7 @@ define(["require","../deep"], function (require, deep) {
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>3</integer>
+			<integer>6</integer>
 			<key>uuidString</key>
 			<string>FEB88179-2AE0-4690-8A34-B531B55D1F93</string>
 		</dict>
@@ -2216,7 +2286,7 @@ define(["require","../deep"], function (require, deep) {
 			<key>label</key>
 			<string>deep.View</string>
 			<key>lastUsed</key>
-			<date>2014-03-28T09:06:21Z</date>
+			<date>2014-03-31T12:07:03Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T13:05:00Z</date>
 			<key>plainText</key>
@@ -2228,7 +2298,7 @@ where:"dom.htmlOf::#content"
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>2</integer>
+			<integer>8</integer>
 			<key>uuidString</key>
 			<string>08C24469-3A71-492D-9DA1-0028AE2BBD89</string>
 		</dict>
@@ -2272,7 +2342,7 @@ where:"dom.htmlOf::#content"
 			<key>label</key>
 			<string></string>
 			<key>lastUsed</key>
-			<date>2014-03-28T09:14:52Z</date>
+			<date>2014-04-02T19:53:28Z</date>
 			<key>modificationDate</key>
 			<date>2014-03-25T13:26:21Z</date>
 			<key>plainText</key>
@@ -2280,7 +2350,7 @@ where:"dom.htmlOf::#content"
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>uuidString</key>
 			<string>1BB57DB7-A52E-41F5-86DA-5AA9E1F9AFA3</string>
 		</dict>
